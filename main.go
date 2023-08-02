@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"to-do-app/app/controllers"
-	"to-do-app/app/models"
+	"todo-app/app/controllers"
+	"todo-app/app/models"
 )
 
 func main() {

@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strconv"
 	"text/template"
-	"to-do-app/app/models"
-	"to-do-app/config"
+	"todo-app/app/models"
+	"todo-app/config"
 )
 
 func generateHTML(w http.ResponseWriter, data interface{}, filenames ...string) {
@@ -66,5 +66,6 @@ func StartMainServer() error {
 	http.HandleFunc("/todos/edit/", parseURL(todoEdit))
 	http.HandleFunc("/todos/update/", parseURL(todoUpdate))
 	http.HandleFunc("/todos/delete/", parseURL(todoDelete))
+
 	return http.ListenAndServe(":"+config.Config.Port, nil)
 }
