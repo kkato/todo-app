@@ -2,7 +2,7 @@
 
 This is a todo app developed in Go.
 
-This app has features the following feasures:
+This app has the following feasures:
 - user registration
 - login/logout
 - create, delete, update todos
