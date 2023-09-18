@@ -3,7 +3,7 @@ package controllers
 import (
 	"log"
 	"net/http"
-	"todo-app/app/models"
+	"to-do-app/app/models"
 )
 
 func top(w http.ResponseWriter, r *http.Request) {
