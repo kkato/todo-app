@@ -2,7 +2,7 @@ package config
 
 import (
 	"log"
-	"to-do-app/utils"
+	"todo-app/utils"
 
 	"gopkg.in/go-ini/ini.v1"
 )

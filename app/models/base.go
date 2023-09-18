@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 	"log"
-	"to-do-app/config"
+	"todo-app/config"
 
 	"github.com/google/uuid"
 	_ "github.com/mattn/go-sqlite3"

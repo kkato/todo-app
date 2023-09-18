@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strconv"
 	"text/template"
-	"to-do-app/app/models"
-	"to-do-app/config"
+	"todo-app/app/models"
+	"todo-app/config"
 )
 
 func generateHTML(w http.ResponseWriter, data interface{}, filenames ...string) {
